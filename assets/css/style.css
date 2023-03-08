@@ -445,3 +445,87 @@ header {
 .section-team-area .pointer.active {
     background-color: #B28756;
 }
+
+
+.section-happyclients {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+
+.section-happyclients .sliders {
+    width: 300vw;
+    height: 100%;
+    display: flex
+}
+
+.section-happyclients .slide {
+    width: 880px;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.section-happyclients .slidearea {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    padding: 30px 100px;
+}
+
+.section-happyclients--avatar {
+    width: 150px;
+    height: auto;
+}
+
+.section-happyclients--name {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.section-happyclients--role {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-top: 5px;
+}
+
+.section-happyclients--quote {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.section-happyclients--testimonyal {
+    font-weight: 600;
+    color: #999;
+    line-height: 22px;
+    text-align: center;
+}
+
+.section-happyclients--area .sliders-pointers {
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-happyclients--area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section-happyclients--area .pointer.active {
+    background-color: #B28756;
+}
