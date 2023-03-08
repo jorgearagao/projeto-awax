@@ -529,3 +529,21 @@ header {
 .section-happyclients--area .pointer.active {
     background-color: #B28756;
 }
+
+.section-companies {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.section-companies-area {
+    max-width: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+}
+
