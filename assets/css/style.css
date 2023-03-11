@@ -187,6 +187,10 @@ header {
     background-color: #eee;
 }
 
+.default.light.white {
+    background-color: #FFF;
+}
+
 .default.light .section-title,
 .default.light .section-body {
     color: #000;
@@ -595,4 +599,75 @@ header {
     font-size: 11px;
     font-weight: 600;
     color: #888;
+}
+
+.section-premium {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-premium--area {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section-premium--left img {
+    max-height: 280px;
+}
+
+.section-premium--feature {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.section-premium--feature img {
+    height: 25px;
+    margin-right: 20px;
+}
+
+.section-premium--feature p {
+    line-height: 23px;
+    color: #999;
+    font-size: 12px;
+}
+
+.section-premium--feature p:first-child {
+    font-size: 17px;
+    font-weight: 700;
+    color: #000;
+}
+
+.section-premium--line {
+    border-bottom: 1px solid #CCC;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.section-premium .sliders-pointers {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section-premium .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.section-premium .pointer.active {
+    background-color: #B28756;
+}
+
+.section-premium .button {
+    margin: auto;
 }
