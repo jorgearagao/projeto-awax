@@ -671,3 +671,43 @@ header {
 .section-premium .button {
     margin: auto;
 }
+
+.section-facts {
+    display: flex;
+}
+
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.section-fact span {
+    font-size: 50px;
+    font-weight: 700;
+    color: #B28756;
+}
+
+.section-fact .divider {
+    background-color: #888;
+    height: 3px;
+    width: 20px;
+    margin: auto;
+}
+
+.section-fact h4 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-fact p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
